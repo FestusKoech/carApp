@@ -8,7 +8,7 @@ import CustomButton from './CustomButton'
 const Navbar = () => {
   return (
     <header className='w-full absolute z-10 '>
-        <nav className="max-w-[1440px] justify-betweenmx-auto flex items-center
+        <nav className="max-w-[1440px] justify-between x-auto flex items-center
         sm:px-16 px-6 py-4 mt-10">
 
            <Link href='/' className='flex justify-center items-center'>
