@@ -12,17 +12,18 @@ const Navbar = () => {
         sm:px-16 px-6 py-4 mt-3">
 
            <Link href='/' className='flex justify-center items-center'>
-            <Image src='/logo.svg' alt='car' width={110} height={18} className='object-contain' />
+            <Image src='/logo.svg' alt='car' width={180} height={18} className='object-contain' />
            </Link>
 
            <CustomButton 
-           title="sign In"
+           title="Sign Up"
            btnType='button'
-           containerStyles='text-btn-primary-blue rounded-full bg-white min-w-[130px]'
+           containerStyles='text-btn-primary-blue text-gray-700 rounded-full  min-w-[130px]'
            />
 
 
         </nav>
+        <hr />
 
         </header>
   )
